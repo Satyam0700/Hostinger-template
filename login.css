@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+}
+.logo{
+    cursor: pointer;
+    padding: 100px 130px;
+}
+.logo img{
+    width: 160px;
+}
+.contact{
+    width: 400px;
+    height: auto;
+}
+.contact h1{
+    font-size: 24px;
+    color: #2f1c6a;
+    font-weight: 700;
+}
+form input{
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 15px;
+    margin-top: 25px;
+    background: #fff;
+    color: #000;
+    border-radius: 6px;
+    border: 1px solid #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+form .btn3{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background-color: #ff004f;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.contact span{
+    color: #2f1c6a;
+    font-weight: bolder;
+    font-size: 16px;
+}
+.contact p{
+    color: #2f1c6a;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 15px;
+}
+@media only screen and (max-width: 600px){
+    .contact-container{
+        padding: 25px;
+        margin-top: 0;
+    }
+    .logo{
+        padding: 50px;
+    }
+}
